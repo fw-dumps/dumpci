@@ -18,7 +18,7 @@ env:
   # Gitlab
   PUSH_TO_GITLAB: true
   GITLAB_GROUP: fw-dumps
-  GITLAB_INSTANCE: gitlab.ngser.com
+  GITLAB_INSTANCE: gitlab.ge-solutions.it
 
 jobs:
   build:
