@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://rms11.realme.net/sw/RMX3751domestic_11_A.20_2023052922040128.zip
+  ROM_URL: https://rms01.realme.net/sw/RMX3782export_11_A.39_2023100920080103.zip
 
 jobs:
   build:
