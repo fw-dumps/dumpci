@@ -16,7 +16,9 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    options: --privileged
+    container:
+      image: docker.io/halfwalker/alpineset2
+      options: --privileged
       
     steps:
        - name: Checkouts
