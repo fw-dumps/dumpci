@@ -16,7 +16,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
+    container: ghcr.io/sushrut1101/docker:arch
       options: --privileged
       
     steps:
