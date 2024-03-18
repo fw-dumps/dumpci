@@ -11,12 +11,14 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://rms01.realme.net/sw/RMX3785export_11_A.32_2023092321210000.zip
+  ROM_URL: https://mirror.tejas101k.workers.dev/0:/SAMFW.COM_SM-M045F_INS_M045FXXS6CWL1_fac.zip
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    container:
+      options: --privileged
+      
     steps:
        - name: Checkouts
          uses: actions/checkout@v3
